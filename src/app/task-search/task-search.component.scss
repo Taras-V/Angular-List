@@ -1,0 +1,36 @@
+.search {
+  text-align: center;
+
+}
+
+input {
+  line-height: 2;
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none !important
+}
+
+label {
+  font-style: italic;
+  font-size: 25px;
+}
+
+h4 {
+  margin: 20px;
+}
+
+.search-result {
+  a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    color: royalblue;
+    margin: 10px;
+  }
+}

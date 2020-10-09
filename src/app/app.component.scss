@@ -1,0 +1,47 @@
+.page {
+  max-width: 1200px;
+  margin: auto;
+
+  h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 50px;
+    border-bottom: salmon solid 4px;
+    border-radius: 50%;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  border-bottom: salmon solid 4px;
+  border-radius: 50%;
+
+  .naw_link {
+    width: 200px;
+    height: 50px;
+    background: rgb(85, 123, 226);
+    margin: 0 20px 0 20px;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+  }
+
+  :hover {
+    color: skyblue;
+  }
+
+  a {
+    margin: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: salmon;
+  }
+}

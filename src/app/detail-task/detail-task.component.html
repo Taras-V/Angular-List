@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="container_task" *ngIf='task'>
+    <h2>{{task.taskName | uppercase}} - Деталі</h2>
+    <div class="task_id">
+      <span>id:</span>{{task.id}}
+    </div>
+    <label class="task_input"> name:
+      <input type="text" [(ngModel)]='task.taskName' placeholder="name">
+    </label>
+    <div class="buttons">
+      <button (click)="goBack()">go back</button>
+      <button (click)='save()'>save</button>
+    </div>
+  </div>
+</div>

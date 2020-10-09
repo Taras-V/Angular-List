@@ -1,0 +1,12 @@
+<div class="section">
+  <h3>Тoп задач</h3>
+  <div class="container">
+    <a *ngFor='let task of task' class=" tasks" routerLink='/detail/{{task.id}}'>
+      <div class="module task">
+        <h4>{{task.taskName}}</h4>
+      </div>
+    </a>
+  </div>
+  
+  <app-task-search></app-task-search>
+</div>

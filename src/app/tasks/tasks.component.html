@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="content">
+    <h2>Мої Задачі</h2>
+    <div class="addTasks">
+      <label>
+        Нова задача:
+        <input #taskName>
+      </label>
+      <button (click)="add(taskName.value); taskName.value='' ">Додати задачу</button>
+    </div>
+    <ul class="tasks">
+      <li *ngFor='let task of tasks'>
+        <a routerLink='/detail/{{task.id}}'>
+          <span taskId>{{task?.id}}</span> {{task.taskName}}
+        </a>
+        <button class="delete" title="delete task" (click)="delete(task)">x</button>
+      </li>
+    </ul>
+  </div>
+</div>

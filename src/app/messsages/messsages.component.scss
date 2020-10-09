@@ -1,0 +1,39 @@
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  padding: 20px 0 20px 0;
+  border-bottom: salmon solid 4px;
+  border-radius: 50%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  .clear {
+    width: 250px;
+    text-align: center;
+    background: #557be2;
+    color: salmon;
+    font-size: 25px;
+    border: none;
+    border-radius: 7px;
+
+  }
+
+  :hover {
+    background-color: rgb(255, 100, 100);
+    color: skyblue;
+
+  }
+}
+
+.message {
+
+  text-align: center;
+  font-style: italic;
+  font-size: 17px;
+  padding: 10px;
+}
